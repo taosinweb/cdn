@@ -5,6 +5,54 @@ Description:     Custom @font-face embedding for Blogger use. Optimized for cros
 */
 
 @font-face {
+    font-family: 'Porto Sans';
+    src: url('files/porto/PotroSansBangla-Regular.eot');
+    src: url('files/porto/PotroSansBangla-Regular.eot?#iefix') format('embedded-opentype'),
+         url('files/porto/PotroSansBangla-Regular.woff2') format('woff2'),
+         url('files/porto/PotroSansBangla-Regular.woff') format('woff'),
+         url('files/porto/PotroSansBangla-Regular.ttf') format('truetype'),
+         url('files/porto/PotroSansBangla-Regular.svg#PortoSans') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Porto Sans';
+    src: url('files/porto/PotroSansBangla-Medium.eot');
+    src: url('files/porto/PotroSansBangla-Medium.eot?#iefix') format('embedded-opentype'),
+         url('files/porto/PotroSansBangla-Medium.woff2') format('woff2'),
+         url('files/porto/PotroSansBangla-Medium.woff') format('woff'),
+         url('files/porto/PotroSansBangla-Medium.ttf') format('truetype'),
+         url('files/porto/PotroSansBangla-Medium.svg#PortoSans') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Porto Sans';
+    src: url('files/porto/PotroSansBangla-SemiBold.eot');
+    src: url('files/porto/PotroSansBangla-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('files/porto/PotroSansBangla-SemiBold.woff2') format('woff2'),
+         url('files/porto/PotroSansBangla-SemiBold.woff') format('woff'),
+         url('files/porto/PotroSansBangla-SemiBold.ttf') format('truetype'),
+         url('files/porto/PotroSansBangla-SemiBold.svg#PortoSans') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Porto Sans';
+    src: url('files/porto/PotroSansBangla-Bold.eot');
+    src: url('files/porto/PotroSansBangla-Bold.eot?#iefix') format('embedded-opentype'),
+         url('files/porto/PotroSansBangla-Bold.woff2') format('woff2'),
+         url('files/porto/PotroSansBangla-Bold.woff') format('woff'),
+         url('files/porto/PotroSansBangla-Bold.ttf') format('truetype'),
+         url('files/porto/PotroSansBangla-Bold.svg#PortoSans') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Pasthelo';
     src: url('files/pasthelo/pasthelo.eot');
     src: url('files/pasthelo/pasthelo.eot?#iefix') format('embedded-opentype'),
@@ -12,6 +60,30 @@ Description:     Custom @font-face embedding for Blogger use. Optimized for cros
          url('files/pasthelo/pasthelo.woff') format('woff'),
          url('files/pasthelo/pasthelo.ttf')  format('truetype'),
          url('files/pasthelo/pasthelo.svg#Pasthelo') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kohinoor Bangla';
+    src: url('files/kohinoor-bangla/kohinoor-bangla.eot');
+    src: url('files/kohinoor-bangla/kohinoor-bangla.eot?#iefix') format('embedded-opentype'),
+         url('files/kohinoor-bangla/kohinoor-bangla.woff2') format('woff2'),
+         url('files/kohinoor-bangla/kohinoor-bangla.woff') format('woff'),
+         url('files/kohinoor-bangla/kohinoor-bangla.ttf') format('truetype'),
+         url('files/kohinoor-bangla/kohinoor-bangla.svg#KohinoorBangla') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('/din-regular.eot');
+    src: url('files/din/din-regular.eot?#iefix') format('embedded-opentype'),
+         url('files/din/din-regular.woff2') format('woff2'),
+         url('files/din/din-regular.woff') format('woff'),
+         url('files/din/din-regular.ttf')  format('truetype'),
+         url('files/din/din-regular.svg#DIN') format('svg');
     font-weight: 400;
     font-style: normal;
 }
