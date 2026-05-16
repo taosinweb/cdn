@@ -1,0 +1,17 @@
+/*
+Name:            Next PLP
+License:         Personal & Non-commercial Use Only
+Description:     Custom @font-face embedding for Blogger use. Optimized for cross-browser compatibility.
+*/
+
+@font-face {
+    font-family: 'Pasthelo';
+    src: url('files/pasthelo/pasthelo.eot');
+    src: url('files/pasthelo/pasthelo.eot?#iefix') format('embedded-opentype'),
+         url('files/pasthelo/pasthelo.woff2') format('woff2'),
+         url('files/pasthelo/pasthelo.woff') format('woff'),
+         url('files/pasthelo/pasthelo.ttf')  format('truetype'),
+         url('files/pasthelo/pasthelo.svg#Pasthelo') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
