@@ -1,0 +1,74 @@
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+/*input[type="search"],*/
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="color"],
+textarea,
+select,
+.msinput{
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid var(--contentL);
+  font-size: 16px;
+  width: 100%;
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"]
+{
+  background-color: var(--linkC);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover
+{
+  opacity: 0.7;
+}
+
+.drK input[type="text"],
+.drK input[type="number"],
+.drK input[type="email"],
+.drK input[type="password"],
+/*.drK input[type="search"],*/
+.drK input[type="url"],
+.drK input[type="tel"],
+.drK input[type="date"],
+.drK input[type="time"],
+.drK input[type="datetime-local"],
+.drK input[type="month"],
+.drK input[type="week"],
+.drK input[type="color"],
+.drK textarea,
+.drK select {
+  background: #333;
+  color: #e0e0e0;
+}
+
+.msrequired::after {
+  content: "*";
+  color: red;
+  margin-left: 2px;
+}
+
+.ms-form {
+  display:flex;
+  flex-direction:column
+}
